@@ -23,6 +23,3 @@ class Busqueda (object):
 
 		return ubicacion #Retorna la ubicacion, si no es encontrado el numero retorna -1
 
-	def __str__(self): #Equivalente al to string para que imprima 
-
-		return "Posicion %s" % (self.ubicacion)
